@@ -1,0 +1,42 @@
+public class operatorbit {
+	public static void main(String[] args) {
+		// Operator AND Bitwise (&)
+		int a = 4;  // 0101 dalam biner
+		int b = 2;  // 0011 dalam biner
+		int result = a & b;  // Hasilnya 0002 (2 dalam desimal)
+		System.out.println("Hasil a & b = " + result);
+
+		// Operator OR Bitwise (|)
+		result = a | b;  // Hasilnya 0111 (7 dalam desimal)
+		System.out.println("Hasil a | b = " + result);
+	}
+}
+
+public class operatorlogika {
+	public static void main(String[] args) {
+		boolean x = false;
+		boolean y = true;
+
+		// Operator logika AND (&&)
+		boolean result = x && y;  // Hasilnya true
+		System.out.println("Hasil x && y = " + result);
+
+		// Operator logika OR (||)
+		result = x || y;  // Hasilnya false
+		System.out.println("Hasil x || y = " + result);
+	}
+}
+
+public class operatorpenugasan {
+	public static void main(String[] args) {
+		int c = 15;
+
+		// Operator penugasan penambahan (+=)
+		c += 10;  // Sama dengan c = c + 10;
+		System.out.println("Hasil c += 10 = " + c);
+
+		// Operator penugasan pengurangan (-=)
+		c -= 6;  // Sama dengan c = c - 6;
+		System.out.println("Hasil c -= 6 = " + c);
+	}
+}
